@@ -1,0 +1,36 @@
+/* .child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subchild {
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+} */
+* {
+  box-sizing: border-box;
+}
+.parents {
+  display: flex;
+  justify-content: center;
+}
+
+.parent {
+  width: 60%;
+}
+
+.child {
+  display: flex;
+  justify-content: center;
+}
+
+.subchild {
+  flex: 1;
+  height: 25px;
+  border: 1px solid black;
+}
+
+.hover {
+  background-color: red;
+}
